@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Noibu",
+  "categories": ["SESSION_RECORDING"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -45,7 +46,7 @@ const onSuccess = () => {
 
 // If the script fails to load, log a message and signal failure
 const onFailure = () => {
-  logToConsole('Conductrics: Script load failed.');
+  logToConsole('Noibu: Script load failed.');
   data.gtmOnFailure();
 };
 
