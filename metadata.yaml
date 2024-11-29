@@ -15,5 +15,5 @@
 homepage: "https://noibu.com/"
 documentation: "https://help.noibu.com/hc/en-us"
 versions:
-  - sha: ddcd600b8b4cb57d1ba5397c2630ace37007b058
+  - sha: 829dcb2a3083fd0fb517375a461083332130cefe
     changeNotes: Initial Version
