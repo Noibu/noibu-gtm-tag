@@ -54,7 +54,7 @@ const onFailure = () => {
 if (queryPermission('inject_script', 'https://cdn.noibu.com/collect-core.js')) {
   injectScript('https://cdn.noibu.com/collect-core.js', onSuccess, onFailure);
 } else {
-  logToConsole('Conductrics: Script load failed due to permissions mismatch.');
+  logToConsole('Noibu: Script load failed due to permissions mismatch.');
   data.gtmOnFailure();
 }
 
